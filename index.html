@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script/script.js"></script>
+
+    <title>Skinfinery : Skin | Hair & Cosmetic Clinic</title>
+  </head>
+  <body>
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-flex align-items-center">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-center justify-content-md-between m-0 p-0 px-5"
+      >
+        <div class="align-items-center d-none d-md-flex">
+          <img src="images/icons/clock.svg" alt="" height="16" width="" />Monday
+          - Saturday, 10AM to 12PM
+        </div>
+        <div class="d-flex align-items-center">
+          <img
+            src="images/icons/mobile-alt.svg"
+            alt=""
+            height="15"
+            width=""
+          />Call us now +91 9510 3619 03
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar section -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container-fluid m-0 py-1 px-lg-5">
+        <a
+          class="logo navbar-brand text-uppercase text-decoration-none"
+          href="#hero"
+          >Skinfinery</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active px-1 mx-2"
+                aria-current="page"
+                href="#hero"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-1 mx-2" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-1 mx-2" href="#gallery">Gallery</a>
+            </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle px-1 mx-2"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Aesthetic Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Brightening Peels</a></li>
+                  <li><a class="dropdown-item" href="#">PRP Therapy</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Microneedling</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Acne Scar Treatment</a></li>
+                  <li><a class="dropdown-item" href="#">Skin Glow & Rejuvenation</a></li>
+                  <li><a class="dropdown-item" href="#">Mole, Skin Tags, Wart Removal</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      >Hyperhidrosis</a
+                    >
+                  </li>
+                  <li><a class="dropdown-item" href="#">Spider Veins</a></li>
+                  <li><a class="dropdown-item" href="#">Mesotherapy</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Corn Removal</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Electrolysis</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Sclerotherapy</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Injection Lipolysis</a>
+                  </li>
+                </ul>
+              </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-1 mx-2"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Treatments
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Acne</a></li>
+                <li><a class="dropdown-item" href="#">Eczema</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Ringworm / Fungal Infection</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Psoriasis</a></li>
+                <li><a class="dropdown-item" href="#">Vitiligo</a></li>
+                <li><a class="dropdown-item" href="#">Warts</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Hair Loss / Alopecia Areata</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Urticaria</a></li>
+                <li><a class="dropdown-item" href="#">Melasma</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Facial Pigmentation</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Nail Disease</a></li>
+              </ul>
+            </li>
+              <li class="nav-item">
+              <a
+                class="nav-link px-1 mx-2"
+                href="#contact"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btnnav btn px-4 ms-3" type="submit">
+              <a class="text-decoration-none text-white" href="#appointment"
+                >Book Appointment</a
+              >
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Carousel Section -->
+    <div class="container-fluid m-0 p-0">
+      <section id="hero">
+        <div
+        id="carouselExampleDark"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/slide-1.jpg" class="d-block w-100 rounded" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Welcome to Skinfinery</h3>
+              <p>"To redefine your skin health"</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/slide-2.jpg" class="d-block w-100 rounded" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Second slide label</h3>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/slide-3.jpg" class="d-block w-100 rounded" alt="" />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Third slide label</h3>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </section>
+      
+
+      <!-- Service Cards Section -->
+      <div class="row row-cols-1 row-cols-md-4 g-3 mt-5 p-lg-4 mx-3">
+        <div class="col">
+          <div class="card h-100 shadow-lg mb-5 bg-body rounded border-0">
+            <img src="" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg mb-5 bg-body rounded border-0">
+            <img src="" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg mb-5 bg-body rounded border-0">
+            <img src="" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-lg mb-5 bg-body rounded border-0">
+            <img src="" class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cta-Section -->
+      <div class="row mt-5 m-0">
+        <div class="col cta-section text-center m-0 p-5">
+          <h3 class="mt-2">Looking for a skin treatment?</h3>
+          <p>
+            You have come to the right place to redefine your skin health
+            bacause your skin deserves the best care.
+          </p>
+          <button
+            class="btn1 btn rounded-pill btn-outline-light px-5 mx-3 mb-3"
+            type="submit"
+          >
+            Book an Appointment
+          </button>
+        </div>
+      </div>
+
+      <!-- About Us Section -->
+      <section id="about" class="mt-5">
+        <div class="row m-0 p-0">
+          <div class="section-title text-center">
+            <h2 class="">About Us</h2>
+          </div>
+          <div class="col">
+            <div class="p-4">
+              <img
+                class="d-block mx-auto rounded"
+                src="./images/priyanjali-about.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col my-auto px-0">
+            <div class="px-5">
+              <p class="mb-lg-3 fs-5">
+                Skinfinery is a skin, hair, nail and cosmetic clinic in
+                Ahmedabad established by Dr. Priyanjali Vaishnav. She is a
+                qualified and board certified dermatologist. She also has
+                special interest in trichology and cosmetology.</p><span id="dots"></span>
+                <span id="more"><p class="mb-lg-3 fs-5">She did her MBBS
+                  from Geetanjali Medical College and Hospital, Udaipur( Rajasthan
+                  University of health sciences) & post graduation in
+                  Dermatology from Sir Sayajirao General (SSG) Hospital, Baroda(
+                  MS University).</p>
+                  <p class="lh fs-5">She is also a fellow of IADVL( Indian
+                    association of Dermatology, Venereology and Leprosy). Here, we
+                    at Skinfinery clinic offer a quality and scientific evidence
+                    based treatments to our patients at affordable prices.</p></span>
+                    <a class="text-decoration-none" onclick="myFunction()" id="myBtn">Read more</a>
+
+                
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="mt-5">
+        <div class="section-title text-center mb-4">
+          <h2>Gallery</h2>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide mx-lg-auto" data-bs-ride="carousel">
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active h-60">
+              <img src="./images/gallery-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item h-60">
+              <img src="./images/gallery-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item h-60">
+              <img src="./images/gallery-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item h-60">
+              <img src="./images/gallery-4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item h-60">
+              <img src="./images/gallery-5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item h-60">
+              <img src="./images/gallery-6.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        
+      </section>
+
+      <!-- Testimonials section -->
+      <section id="testimonials" class="mt-5">
+        <div class="section-title text-center mb-4">
+          <h2>Testimonials</h2>
+        </div>
+        <div id="carouselExampleControlst" class="carousel slide h-25 mx-lg-auto" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card h-100 p-3 border-0">
+                <img
+                  src="./images/icons/quote-left.svg"
+                  height="32"
+                  class=""
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text p-0 mt-2">
+                    She is a great doctor. She is very calm when discussing skin
+                    health issues. I feel comfortable asking questions. Every
+                    clinic visit I have had with her has been a good expeience so
+                    far.
+                  </p>
+                </div>
+                <h5 class="card-title text-center">Harsh Patel</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card h-100 p-3 border-0">
+                <img
+                  src="./images/icons/quote-left.svg"
+                  height="25"
+                  class=""
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text mt-2">
+                    The doctor was quite attentive to my skin problems, explained
+                    all the pros and cons regarding different treatments options
+                    that are available and showed striking empathy. For which I am
+                    simply grateful.
+                  </p>
+                </div>
+                <h5 class="card-title text-center">Praveena Ranawat</h5>
+              </div>            </div>
+            <div class="carousel-item">
+              <div class="card h-100 p-3 border-0">
+                <img
+                  src="./images/icons/quote-left.svg"
+                  height="32"
+                  class=""
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text p-0 mt-2">
+                    She is someone who will listen to your skin health concerns
+                    and respond appropriately that information with regular and
+                    proper follow up sessions. And it's cost efficient. 👍
+                  </p>
+                </div>
+                <h5 class="card-title text-center">Jigar Shah</h5>
+              </div>            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlst" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlst" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Appointment Section -->
+      <section id="appointment" class="mt-5 p-5">
+        <div class="section-title text-center mb-4">
+          <h2>Make an Appointment</h2>
+        </div>
+        <form action="" class="p-2">
+          <div class="row g-3">
+            <div class="col-md-6 col-sm-12 col-lg-6">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First Name"
+                aria-label=""
+                required
+              />
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Last Name"
+                aria-label=""
+                required
+              />
+            </div>  
+            <div class="col-md-6 col-sm-12 col-lg-6">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email Address"
+                aria-label=""
+                required
+              />
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6">
+              <input
+                type="tel"
+                class="form-control"
+                placeholder="Mobile Number"
+                aria-label=""
+                required
+              />
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6">
+              <input
+                type="date"
+                class="form-control"
+                placeholder="Appointment Date"
+                aria-label=""
+                required
+              />
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6">
+              <input
+                type="time"
+                class="form-control"
+                placeholder="Appointment Date & Time"
+                aria-label=""
+                required
+              />
+            </div>
+                      
+          </div>
+          <div class="text-center mt-5">
+            <button class="btn btnnav rounded-pill px-5" type="submit">
+              Make an Appointment
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="mt-5">
+        <div class="section-title text-center mb-4">
+          <h2>Contact</h2>
+        </div>
+        <div class="parent-box">
+          <div id="map">
+          </div>
+          <div class="row m-0 mt-5 ms-3">
+            <div class="col-lg-12 ps-0">
+              <div class="row innerrow m-0">
+                <div class="col-md-12">
+                  <div
+                    class="card text-center shadow bg-body rounded border-0 p-3"
+                  >
+                    <img
+                      class=""
+                      src="./images/icons/map-marker-alt.svg"
+                      height="32"
+                      alt=""
+                    />
+                    <h3 class="mt-2">Our Address</h3>
+                    <p>
+                      1st Floor, Shree Raj Complex, Opp. Vasna Bus Stand, Vasna,
+                      Ahmedabad 380051
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="card mt-4 text-center shadow bg-body rounded border-0 p-3"
+                  >
+                    <img
+                      class=""
+                      src="./images/icons/envelope.svg"
+                      height="32"
+                      alt=""
+                    />
+                    <h3 class="mt-2">Email Us</h3>
+                    <p>skinfinery.clinic@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    class="card mt-4 text-center shadow bg-body rounded border-0 p-3"
+                  >
+                    <img
+                      class=""
+                      src="./images/icons/phone-square.svg"
+                      height="32"
+                      alt=""
+                    />
+                    <h3 class="mt-2">Call Us</h3>
+                    <p>+91 9510 3619 03</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="row mt-5 justify-content-center py-5 m-0">
+        <div class="col-11">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 col-sm-4 col-12">
+              <h3 class="logo mb-3">Skinfinery</h3>
+              <div class="">
+                <span class="mx-1"
+                  ><img
+                    src="./images/icons/facebook-square.svg"
+                    height="32"
+                    alt=""
+                /></span>
+                <span class="mx-1"
+                  ><img
+                    src="./images/icons/twitter-square.svg"
+                    height="32"
+                    alt=""
+                /></span>
+                <span class="mx-1"
+                  ><img
+                    src="./images/icons/instagram-square.svg"
+                    height="32"
+                    alt=""
+                /></span>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 col-sm-4 col-12">
+              <h4 class="mb-2 mb-lg-3 mt-sm-0 mt-5 bold-text p-0">Useful Links</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <img
+                    src="./images/icons/chevron-right.svg"
+                    height="12"
+                    width=""
+                    alt=""
+                  /><a class="text-decoration-none ms-2" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <img
+                    src="./images/icons/chevron-right.svg"
+                    height="12"
+                    width=""
+                    alt=""
+                  /><a class="text-decoration-none ms-2" href="#about">About</a>
+                </li>
+                <li>
+                  <img
+                    src="./images/icons/chevron-right.svg"
+                    height="12"
+                    width=""
+                    alt=""
+                  /><a class="text-decoration-none ms-2" href="#gallery"
+                    >Gallery</a
+                  >
+                </li>
+                <li>
+                  <img
+                    src="./images/icons/chevron-right.svg"
+                    height="12"
+                    width=""
+                    alt=""
+                  /><a
+                    class="text-decoration-none ms-2"
+                    href="#procedural-treatments"
+                    >Aesthetic Services</a
+                  >
+                </li>
+                <li>
+                  <img
+                    src="./images/icons/chevron-right.svg"
+                    height="12"
+                    width=""
+                    alt=""
+                  /><a class="text-decoration-none ms-2" href="#treatments"
+                    >Treatments</a
+                  >
+                </li>
+                <li>
+                  <img
+                    src="./images/icons/chevron-right.svg"
+                    height="12"
+                    width=""
+                    alt=""
+                  /><a class="text-decoration-none ms-2" href="#contact"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-xl-4 col-md-4 col-sm-4 col-12">
+              <h4 class="mb-2 mb-lg-3 mt-sm-0 mt-5 p-0">Address</h4>
+              <p class="mb-1">
+                1st Floor, Shree Raj Complex, Opp. Vasna Bus Stand,<p>Vasna,
+                    Ahmedabad 380051</p>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-xl-4 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end"
+            >
+              <small class="rights"
+                ><span>&#174;</span> Skinfinery All Rights Reserved.</small
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal Section -->
+    <div class="modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Book Appointment</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-2">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Your Name"
+              />
+            </div>
+            <div class="mb-2">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput2"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-2">
+              <input
+                type="tel"
+                class="form-control"
+                id="exampleFormControlInput3"
+                placeholder="Phone Number"
+              />
+            </div>
+            <div class="mb-2">
+              <input
+                type="datetime-local"
+                class="form-control"
+                id="exampleFormControlInput4"
+                placeholder="Appointment Date"
+              />
+            </div>
+            <div class="mb-2">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Message(Optional)"
+              ></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbAWV5HbDKVqEnLg-CL0TGmwl15IwA8-M&callback=initMap"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!-- 
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>
